@@ -1,0 +1,17 @@
+.bukti-bayar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bukti-bayar-table th,
+  .bukti-bayar-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bukti-bayar-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

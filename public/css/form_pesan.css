@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../storage/home/home-bg.jpg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  position: fixed;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  margin-left: 500px;
+  margin-right: 500px;
+  box-sizing: content-box;
+  
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select,
+.form-control-file {
+  background: #fff;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+select {
+  height: 40px;
+}
+
+
+
+.parent {
+  display:grid;
+  place-items: center;
+
+}
+.btn-primary {
+  
+ 
+  width: 7%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  place-items:inherit;
+ 
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.backtodash {
+  
+  position:center;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #2a68f8;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  place-items: center;
+  text-decoration: none;
+}
+
+.backtodash:hover {
+  background-color: #310bc9;
+}
+
+.error-message {
+  display: none;
+  background: #fbfbfb;
+  width: fit-content;
+  height: fit-content;
+  color: red;
+  text-decoration:solid;
+  font-size: 14px;
+  margin-top: 5px;
+}

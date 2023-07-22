@@ -1,0 +1,44 @@
+.sidebar {
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    margin: 0 auto; /* Mengatur margin kiri dan kanan menjadi auto */
+}
+
+.sidebar .button-container {
+    display: contents;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7cc0d8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.sidebar a:hover {
+    background-color: #0056b3;
+}
+
+.sidebar .pesan-sekarang-button {
+    background-color: #66b6d2;
+}
+
+.sidebar .daftar-harga-lapang {
+    background-color: #51abcb;
+    font-size: 11px;
+}
+
+.sidebar .popup-link {
+    background-color: #3ba1c5;
+}

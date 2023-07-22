@@ -1,0 +1,102 @@
+/* admin.login.css */
+
+body {
+    background-color: #a4c7ea;
+    
+  
+  
+    font-family: Arial, sans-serif;
+}
+
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 250px;
+    margin: 0 auto;
+    background-color: #b1d1f1;
+    padding: 55px;
+    border-radius: 8%;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+
+
+
+
+p {
+    color: #f00;
+    margin-top: 10px;
+}
+
+
+/* login-button.css */
+
+.login-btn [type="submit"]{
+  background-color: #5394ef;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-btn [type="submit"]:hover {
+  background-color: #4185e4;
+}
+
+.login-btn:focus {
+  outline: none;
+}
+
+
+.error {
+  
+  text-align: center;
+  font-weight: 200;
+  color: red;
+  font-size: 14px;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  border-radius: 12px;
+}
+
+.lupa {
+  color: blue;
+  text-decoration:none;
+  font-weight: bolder;
+}
+
+.lupa:hover {
+  color: rgb(250, 249, 249);
+}
